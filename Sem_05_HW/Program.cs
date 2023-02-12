@@ -93,16 +93,18 @@ printSum(collection);
 // [3 7 22 2 78] -> 76
 
 /*
-void newArray(int[] array)
+void newArray(double[] array)
 {
     int count = array.Length;
     for (int i = 0; i < count; i++)
     {
-        array[i] = new Random().Next(-1000, 1001);
+        array[i] = new Random().NextDouble();
+        array[i] =  array[i]*10;
+        array[i] = Math.Round(array[i], 2);
     }
 }
 
-void printArray(int[] array)
+void printArray(double[] array)
 {
     int position = 0;
     int count = array.Length;
@@ -115,10 +117,10 @@ void printArray(int[] array)
 }
 
 
-(int, int) GetMaxMin(int[] array)
+(double, double) GetMaxMin(double[] array)
 {
-    int max =0;
-    int min = 0;
+    double max =array[0];
+    double min = array[0];
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i]>max)
@@ -134,15 +136,15 @@ void printArray(int[] array)
     return (max, min);
 }
 
-void PrintDiff(int max, int min)
+void PrintDiff(double max, double min)
 {
-    int diff = max-min;
+    double diff = max-min;
     Console.WriteLine($"-> Разница равна {diff} ");
 }
 
-int[] collection = new int[5];
+double[] collection = new double[5];
 newArray(collection);
 printArray(collection);
-(int max, int min) = GetMaxMin(collection);
+(double max, double min) = GetMaxMin(collection);
 PrintDiff(max, min);
 */
