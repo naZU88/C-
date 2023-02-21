@@ -2,20 +2,24 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
+Console.WriteLine("Введите числа через пробел:");
+string numbers = (Console.ReadLine());
+string[] gotNumbers = numbers.Split(" ");
+int[] gN = new int[gotNumbers.Length];
+for (int i = 0; i < gotNumbers.Length; i++)
+{
+    gN[i] = Convert.ToInt32(gotNumbers[i]);
+}
 
-
-// Console.WriteLine("Введите количество чисел:");
-// int count = Convert.ToInt32(Console.ReadLine());
-// int result = 0;
-
-// for (int i = 0; i < count; i++)
-// {
-//     Console.WriteLine("Введите число:");
-//     int number=Convert.ToInt32(Console.ReadLine());
-//     if (number>0) result = result+1;
-// }
-
-// Console.WriteLine(result);
+int count = 0;
+for (int i = 0; i < gN.Length; i++)
+{
+    if (gN[i] > 0)
+    {
+        count = count+1;
+    }
+}
+Console.WriteLine(count);
 
 
 
