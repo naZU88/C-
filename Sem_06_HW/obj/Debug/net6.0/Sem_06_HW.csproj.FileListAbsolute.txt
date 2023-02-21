@@ -1,0 +1,15 @@
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.csproj.AssemblyReference.cache
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.AssemblyInfoInputs.cache
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.AssemblyInfo.cs
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.csproj.CoreCompileInputs.cache
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\bin\Debug\net6.0\Sem_06_HW.exe
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\bin\Debug\net6.0\Sem_06_HW.deps.json
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\bin\Debug\net6.0\Sem_06_HW.runtimeconfig.json
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\bin\Debug\net6.0\Sem_06_HW.dll
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\bin\Debug\net6.0\Sem_06_HW.pdb
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.dll
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\refint\Sem_06_HW.dll
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.pdb
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\Sem_06_HW.genruntimeconfig.cache
+C:\Users\Лидия\Desktop\C#\Sem_06_HW\obj\Debug\net6.0\ref\Sem_06_HW.dll
