@@ -28,18 +28,20 @@ Console.WriteLine(count);
 
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-Console.WriteLine("Введите k1:");
-int numberK1=Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Введите k2:");
-int numberK2=Convert.ToInt32(Console.ReadLine());
-
 Console.WriteLine("Введите b1:");
 int numberB1=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите k1:");
+int numberK1=Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите b2:");
 int numberB2=Convert.ToInt32(Console.ReadLine());
 
-double numberX = ((numberB2 - numberB1)/(numberK1 - numberK2));
-double numberY = numberX*numberK1 + numberB1;
+Console.WriteLine("Введите k2:");
+int numberK2=Convert.ToInt32(Console.ReadLine());
+
+Double firstResult = numberB2 - numberB1;
+Double secondResult = numberK1 - numberK2;
+Double numberX = firstResult/secondResult; 
+Double numberY = numberX*numberK1 + numberB1;
 Console.WriteLine($"({numberX};{numberY})");
